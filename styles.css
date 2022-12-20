@@ -8,11 +8,13 @@
 font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 */
+body{
+    margin: 0 10%;
+}
 
 header{
     font-family: 'Alata', sans-serif;
-    margin: auto 10%;
-    width:80% ;
+    width:100% ;
     background-image: url("./images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
