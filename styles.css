@@ -45,6 +45,13 @@ header nav .menu {
   list-style: none;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  
+}
+.menu a{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
 }
 
 header .titulo-portada {
@@ -59,6 +66,7 @@ header .titulo-portada {
 }
 
 .hvr-underline-from-center {
+    height: 30px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
