@@ -1,165 +1,180 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*
 font-family: 'Alata', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 */
-body{
-    margin: 0 10%;
+body {
+  max-width: 1300px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-header{
-    font-family: 'Alata', sans-serif;
-    width:100% ;
-    background-image: url("./images/desktop/image-hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #fff;
+header {
+  font-family: "Alata", sans-serif;
+  width: 100%;
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
 }
-header nav{
-    margin-top: 5%;
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-header nav .logo{
-    font-size: 20px;
-    font-weight: bold;
+header nav {
+  margin-top: 5%;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-header nav .menu{
-    display: flex;
-    width: 40%;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+header nav .logo {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-header .titulo-portada{
-    border: #fff solid 2px;
-    padding: 3%;
-    margin: 8%;
-    margin-right: auto;
-    width: 40%;
-    justify-self: end;
-    font-size: 450%;
-    font-family: 'Josefin Sans', sans-serif;
+header nav .menu {
+  display: flex;
+  width: 40%;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
- .hvr-underline-from-center {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-  }
-  .hvr-underline-from-center:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: #fff;
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0;
-  }
-.main-container{
-    width: 100%;
-
-}
-section{
-    margin-bottom: 40px;
-}
-.section1-div{
-    width: 450px;
-    height: 350px;
-    background-color: white;
-    position: absolute;
-    top: 150px;
-    right: 10%;
-}
-.centrar{
-    padding-top: 120px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    align-content: end;
+header .titulo-portada {
+  border: #fff solid 2px;
+  padding: 3%;
+  margin: 8%;
+  margin-right: auto;
+  width: 40%;
+  justify-self: end;
+  font-size: 450%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.centrar h2{
-    font-size: 40px;
-    margin-bottom: 20px;
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
-.centrar p{
-    line-height: 25px;
-    font-size: 13px;
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #fff;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/*main*/
+.main-container {
+  width: 100%;
+}
+
+.section1 {
+  height: 550px;
+}
+.section1-div {
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  position: relative;
+  bottom: 350px;
+  left: 60%;
+}
+.centrar {
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+}
+
+.centrar h2 {
+  font-weight: 400;
+  font-family: "Alata", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.centrar p {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 25px;
+  font-size: 12px;
 }
 /*Section 2*/
-.section2 h2{
-    font-size: 45px;
+.section2 {
+  max-width: 100%;
+  height: 650px;
 }
-.section-title{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
+.section2 h2 {
+  font-weight: 400;
+  font-family: "Alata", sans-serif;
+  font-size: 45px;
 }
-.button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-.button button{
-    width: 120px;
-    padding: 8px;
-    color: white;
-    background-color: black;
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.div-section2{
-    display: flex;
-    justify-content: space-between;
+.button button {
+  width: 120px;
+  padding: 8px;
+  color: white;
+  background-color: black;
 }
-.cards{
-    width: 100%;
+.div-section2 {
+  display: flex;
+  max-width: 1100px;
+  justify-content: center;
 }
-.cards img{
-    width: 220px;
+.cards {
+  width: 100%;
+  height: 420px;
 }
-.color-negro{
-    color: black;
+.cards img {
+  width: 220px;
 }
-.span{
-    color: white;
+.color-negro {
+  color: black;
 }
-.cards span{
-    font-weight: 300;
-    font-size: 25px;
-    position: relative;
-    left: 40px;
-    bottom:-350px;
+.span {
+  color: white;
 }
-
-
+.cards span {
+  font-weight: 300;
+  font-family: "Alata", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  position: relative;
+  left: 50px;
+  bottom: -350px;
+}
