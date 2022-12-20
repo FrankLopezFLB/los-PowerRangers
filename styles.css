@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 *{
     margin: 0;
@@ -85,4 +86,80 @@ header .titulo-portada{
     left: 0;
     right: 0;
   }
+.main-container{
+    width: 100%;
+
+}
+section{
+    margin-bottom: 40px;
+}
+.section1-div{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    right: 10%;
+}
+.centrar{
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+.centrar h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.centrar p{
+    line-height: 25px;
+    font-size: 13px;
+}
+/*Section 2*/
+.section2 h2{
+    font-size: 45px;
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    width: 120px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+}
+.div-section2{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 100%;
+}
+.cards img{
+    width: 220px;
+}
+.color-negro{
+    color: black;
+}
+.span{
+    color: white;
+}
+.cards span{
+    font-weight: 300;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    bottom:-350px;
+}
+
 
