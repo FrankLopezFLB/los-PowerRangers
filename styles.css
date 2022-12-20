@@ -1,12 +1,91 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
+/*
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
 }
+
+header{
+    font-family: 'Alata', sans-serif;
+    width:100% ;
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+header nav{
+    margin-top: 5%;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav .menu{
+    display: flex;
+    width: 40%;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header .titulo-portada{
+    border: #fff solid 2px;
+    padding: 3%;
+    margin: 8%;
+    margin-right: auto;
+    width: 40%;
+    justify-self: end;
+    font-size: 450%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #fff;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
 .main-container{
     width: 100%;
 
@@ -82,4 +161,5 @@ section{
     left: 40px;
     bottom:-350px;
 }
+
 
